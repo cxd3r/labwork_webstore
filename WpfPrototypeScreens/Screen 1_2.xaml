@@ -1,0 +1,34 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d"
+	xmlns:local="clr-namespace:WpfPrototypeScreens" xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity" xmlns:pb="clr-namespace:Microsoft.Expression.Prototyping.Behavior;assembly=Microsoft.Expression.Prototyping.Interactivity" x:Name="Product"
+	x:Class="WpfPrototypeScreens.Screen_1_2"
+	Width="1080" Height="720">
+
+	<Grid x:Name="LayoutRoot" Background="White">
+		<local:CommonElements x:Name="CommonElements" d:IsPrototypingComposition="True"/>
+		<Rectangle x:Name="image_block" Fill="#FFE6BEE6" HorizontalAlignment="Left" Margin="65,150,0,0" VerticalAlignment="Top" Width="350" Height="500"/>
+		<Rectangle x:Name="text_block" Fill="White" Margin="450,150,65,0" VerticalAlignment="Top" Height="500"/>
+		<TextBlock x:Name="___text_product_name" HorizontalAlignment="Left" Margin="500,200,0,0" VerticalAlignment="Top" FontFamily="Courier New" FontSize="17.333" FontWeight="Bold" Text="// product name" TextWrapping="Wrap"/>
+		<TextBlock x:Name="___text__product_description" Margin="500,250,100,0" VerticalAlignment="Top" Opacity="0.5" FontFamily="Courier New" FontSize="14.667" TextWrapping="Wrap"><Run Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."/><LineBreak/><Run Text=""/></TextBlock>
+		<Rectangle x:Name="price_background" Fill="#FFE6BEE6" HorizontalAlignment="Left" Margin="500,425,0,0" VerticalAlignment="Top" Width="150" Height="50"/>
+		<TextBlock x:Name="price_text" Margin="538,0,466,258" VerticalAlignment="Bottom" Height="20" FontFamily="Courier New" FontSize="17.333" FontWeight="Bold" Foreground="White" Text="$100.00" TextWrapping="Wrap"/>
+		<Button x:Name="___button__buy" Background="Black" HorizontalAlignment="Left" Margin="500,500,0,0" Style="{DynamicResource SimpleButton}" VerticalAlignment="Top" Width="150" Height="50" Content="BUY" BorderBrush="{x:Null}" BorderThickness="0" FontFamily="Courier New" FontSize="17.333" FontWeight="Bold" Foreground="White">
+			<i:Interaction.Triggers>
+				<i:EventTrigger EventName="Click">
+					<pb:NavigateToScreenAction TargetScreen="WpfPrototypeScreens.Screen_1_7"/>
+				</i:EventTrigger>
+			</i:Interaction.Triggers>
+		</Button>
+		<Button x:Name="___button_back_to_store" Background="#FFFAFAFA" HorizontalAlignment="Left" Margin="830,500,0,0" Style="{DynamicResource SimpleButton}" VerticalAlignment="Top" Width="150" Height="50" Content="back to store" BorderBrush="{x:Null}" BorderThickness="0" FontFamily="Courier New" FontSize="14.667" FontWeight="Bold" Foreground="#FF404040">
+			<i:Interaction.Triggers>
+				<i:EventTrigger EventName="Click">
+					<pb:NavigateToScreenAction TargetScreen="WpfPrototypeScreens.Screen_1"/>
+				</i:EventTrigger>
+			</i:Interaction.Triggers>
+		</Button>
+	</Grid>
+</UserControl>

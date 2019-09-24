@@ -1,0 +1,158 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d"
+	xmlns:local="clr-namespace:WpfPrototypeScreens" x:Name="Warehouse"
+	x:Class="WpfPrototypeScreens.Screen_1_1"
+	Width="1080" Height="720">
+
+	<Grid x:Name="LayoutRoot" Background="White">
+		<local:CommonElements x:Name="CommonElements" d:IsPrototypingComposition="True"/>
+		<Rectangle x:Name="content" Fill="White" Margin="65,150,0,0" Width="950" Height="500" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+		<TextBlock x:Name="___text__products" HorizontalAlignment="Left" Margin="90,175,0,0" VerticalAlignment="Top" Text="// products" TextWrapping="Wrap" FontSize="17.333" FontFamily="Courier New" FontWeight="Bold"/>
+		<Rectangle x:Name="table" Fill="White" Margin="90,225,90,0" VerticalAlignment="Top" Height="400" Width="900"/>
+		<Rectangle x:Name="table_column_1" Fill="White" Stroke="Black" HorizontalAlignment="Left" Margin="90,225,0,0" VerticalAlignment="Top" Width="180" Height="50" StrokeThickness="0.5"/>
+		<Rectangle x:Name="table_column_2" Fill="White" Stroke="Black" HorizontalAlignment="Left" Margin="270,225,0,0" VerticalAlignment="Top" Width="180" Height="50" StrokeThickness="0.5"/>
+		<Rectangle x:Name="table_column_3" Fill="White" Stroke="Black" Margin="450,225,450,0" VerticalAlignment="Top" Height="50" StrokeThickness="0.5"/>
+		<Rectangle x:Name="table_column_4" Fill="White" Stroke="Black" HorizontalAlignment="Right" Margin="0,225,270,0" VerticalAlignment="Top" Width="180" Height="50" StrokeThickness="0.5"/>
+		<Rectangle x:Name="table_column_5" Fill="White" Stroke="Black" HorizontalAlignment="Right" Margin="0,225,90,0" VerticalAlignment="Top" Width="180" Height="50" StrokeThickness="0.5"/>
+		<TextBlock HorizontalAlignment="Left" Margin="136,242,0,0" VerticalAlignment="Top" Width="85.3" Height="15.6" Text="id" TextWrapping="Wrap" FontFamily="Courier New" FontSize="14.667" TextAlignment="Center"/>
+		<TextBlock HorizontalAlignment="Left" Margin="309,242,0,0" VerticalAlignment="Top" Height="15.6" FontFamily="Courier New" FontSize="14.667" Text="product name" TextAlignment="Center" TextWrapping="Wrap"/>
+		<TextBlock Margin="505,242,0,0" VerticalAlignment="Top" Height="15.6" FontFamily="Courier New" FontSize="14.667" Text="quantity" TextAlignment="Center" TextWrapping="Wrap" d:LayoutOverrides="Width" HorizontalAlignment="Left"/>
+		<TextBlock Margin="656,242,0,0" VerticalAlignment="Top" Height="15.6" FontFamily="Courier New" FontSize="14.667" Text="price [per one]" TextAlignment="Center" TextWrapping="Wrap" HorizontalAlignment="Left"/>
+		<TextBlock Margin="846,242,0,0" VerticalAlignment="Top" Height="15.6" FontFamily="Courier New" FontSize="14.667" Text="manufacturer" TextAlignment="Center" TextWrapping="Wrap" HorizontalAlignment="Left"/>
+		<Rectangle x:Name="table_row_1_1" Fill="#FFF0F0F3" HorizontalAlignment="Left" Margin="90,275,0,0" VerticalAlignment="Top" Width="180" Height="30"/>
+		<TextBlock HorizontalAlignment="Left" Margin="150,283,0,0" VerticalAlignment="Top" FontFamily="Courier New" Text="#0000001" TextAlignment="Center" TextWrapping="Wrap" Foreground="#BF000000"/>
+		<Rectangle x:Name="table_row_1_2" Fill="#FFF0F0F3" HorizontalAlignment="Left" Margin="269.987,275,0,0" VerticalAlignment="Top" Width="180" Height="30"/>
+		<TextBlock HorizontalAlignment="Left" Margin="328,283,0,0" VerticalAlignment="Top" FontFamily="Courier New" Text="p-name_1" TextAlignment="Center" TextWrapping="Wrap" Foreground="#BF000000"/>
+		<Rectangle x:Name="table_row_1_3" Fill="#FFF0F0F3" Margin="449.984,275,450.016,0" VerticalAlignment="Top" Height="30"/>
+		<TextBlock Margin="533,283,0,0" VerticalAlignment="Top" FontFamily="Courier New" Text="18" TextAlignment="Center" TextWrapping="Wrap" Foreground="#BF000000" d:LayoutOverrides="Width" HorizontalAlignment="Left"/>
+		<Rectangle x:Name="table_row_1_4" Fill="#FFF0F0F3" Margin="0,275,270.03,0" VerticalAlignment="Top" Height="30" HorizontalAlignment="Right" Width="180"/>
+		<TextBlock Margin="705,283,0,0" VerticalAlignment="Top" FontFamily="Courier New" Text="$100" TextAlignment="Center" TextWrapping="Wrap" Foreground="#BF000000" HorizontalAlignment="Left"/>
+		<Rectangle x:Name="table_row_1_5" Fill="#FFF0F0F3" Margin="0,275,90,0" VerticalAlignment="Top" Height="30" HorizontalAlignment="Right" Width="180"/>
+		<TextBlock Margin="870,283,0,0" VerticalAlignment="Top" FontFamily="Courier New" Text="m-name_1" TextAlignment="Center" TextWrapping="Wrap" Foreground="#BF000000" HorizontalAlignment="Left"/>
+		<Rectangle x:Name="table_row_2_1" Fill="#FFF0F0F3" HorizontalAlignment="Left" Margin="90,304,0,0" VerticalAlignment="Top" Width="180" Height="30"/>
+		<TextBlock HorizontalAlignment="Left" Margin="150,312,0,0" VerticalAlignment="Top" FontFamily="Courier New" Text="#0000002" TextAlignment="Center" TextWrapping="Wrap" Foreground="#BF000000"/>
+		<Rectangle x:Name="table_row_2_2" Fill="#FFF0F0F3" HorizontalAlignment="Left" Margin="269.987,304,0,0" VerticalAlignment="Top" Width="180" Height="30"/>
+		<TextBlock HorizontalAlignment="Left" Margin="328,312,0,0" VerticalAlignment="Top" FontFamily="Courier New" Text="p-name_2" TextAlignment="Center" TextWrapping="Wrap" Foreground="#BF000000"/>
+		<Rectangle x:Name="table_row_2_3" Fill="#FFF0F0F3" Margin="449.984,304,450.016,0" VerticalAlignment="Top" Height="30"/>
+		<TextBlock Margin="533,312,0,0" VerticalAlignment="Top" FontFamily="Courier New" Text="18" TextAlignment="Center" TextWrapping="Wrap" Foreground="#BF000000" HorizontalAlignment="Left"/>
+		<Rectangle x:Name="table_row_2_4" Fill="#FFF0F0F3" Margin="0,304,270.03,0" VerticalAlignment="Top" Height="30" HorizontalAlignment="Right" Width="180"/>
+		<TextBlock Margin="705,312,0,0" VerticalAlignment="Top" FontFamily="Courier New" Text="$100" TextAlignment="Center" TextWrapping="Wrap" Foreground="#BF000000" HorizontalAlignment="Left"/>
+		<Rectangle x:Name="table_row_2_5" Fill="#FFF0F0F3" Margin="0,304,90,0" VerticalAlignment="Top" Height="30" HorizontalAlignment="Right" Width="180"/>
+		<TextBlock Margin="870,312,0,0" VerticalAlignment="Top" FontFamily="Courier New" Text="m-name_2" TextAlignment="Center" TextWrapping="Wrap" Foreground="#BF000000" HorizontalAlignment="Left"/>
+		<Rectangle x:Name="table_row_3_1" Fill="#FFF0F0F3" HorizontalAlignment="Left" Margin="90,330,0,0" VerticalAlignment="Top" Width="180" Height="30"/>
+		<TextBlock HorizontalAlignment="Left" Margin="150,338,0,0" VerticalAlignment="Top" FontFamily="Courier New" Text="#0000003" TextAlignment="Center" TextWrapping="Wrap" Foreground="#BF000000"/>
+		<Rectangle x:Name="table_row_3_2" Fill="#FFF0F0F3" HorizontalAlignment="Left" Margin="269.987,330,0,0" VerticalAlignment="Top" Width="180" Height="30"/>
+		<TextBlock HorizontalAlignment="Left" Margin="328,338,0,0" VerticalAlignment="Top" FontFamily="Courier New" Text="p-name_3" TextAlignment="Center" TextWrapping="Wrap" Foreground="#BF000000"/>
+		<Rectangle x:Name="table_row_3_3" Fill="#FFF0F0F3" Margin="449.984,330,450.016,0" VerticalAlignment="Top" Height="30"/>
+		<TextBlock Margin="533,338,0,0" VerticalAlignment="Top" FontFamily="Courier New" Text="18" TextAlignment="Center" TextWrapping="Wrap" Foreground="#BF000000" HorizontalAlignment="Left"/>
+		<Rectangle x:Name="table_row_3_4" Fill="#FFF0F0F3" Margin="0,330,270.03,0" VerticalAlignment="Top" Height="30" HorizontalAlignment="Right" Width="180"/>
+		<TextBlock Margin="705,338,0,0" VerticalAlignment="Top" FontFamily="Courier New" Text="$100" TextAlignment="Center" TextWrapping="Wrap" Foreground="#BF000000" HorizontalAlignment="Left"/>
+		<Rectangle x:Name="table_row_3_5" Fill="#FFF0F0F3" Margin="0,330,90,0" VerticalAlignment="Top" Height="30" HorizontalAlignment="Right" Width="180"/>
+		<TextBlock Margin="870,338,0,0" VerticalAlignment="Top" FontFamily="Courier New" Text="m-name_3" TextAlignment="Center" TextWrapping="Wrap" Foreground="#BF000000" HorizontalAlignment="Left"/>
+		<Rectangle x:Name="table_row_4_1" Fill="#FFF0F0F3" HorizontalAlignment="Left" Margin="90,355.998,0,334.002" Width="180"/>
+		<TextBlock HorizontalAlignment="Left" Margin="150,0,0,342.406" VerticalAlignment="Bottom" FontFamily="Courier New" Text="#0000004" TextAlignment="Center" TextWrapping="Wrap" Foreground="#BF000000"/>
+		<Rectangle x:Name="table_row_4_2" Fill="#FFF0F0F3" HorizontalAlignment="Left" Margin="269.987,355.998,0,334.002" Width="180"/>
+		<TextBlock HorizontalAlignment="Left" Margin="328,0,0,342.406" VerticalAlignment="Bottom" FontFamily="Courier New" Text="p-name_4" TextAlignment="Center" TextWrapping="Wrap" Foreground="#BF000000"/>
+		<Rectangle x:Name="table_row_4_3" Fill="#FFF0F0F3" Margin="449.984,355.998,450.016,334.002"/>
+		<TextBlock Margin="533,0,0,342.406" VerticalAlignment="Bottom" FontFamily="Courier New" Text="18" TextAlignment="Center" TextWrapping="Wrap" Foreground="#BF000000" HorizontalAlignment="Left"/>
+		<Rectangle x:Name="table_row_4_4" Fill="#FFF0F0F3" Margin="0,355.998,270.03,334.002" HorizontalAlignment="Right" Width="180"/>
+		<TextBlock Margin="705,0,0,342.406" VerticalAlignment="Bottom" FontFamily="Courier New" Text="$100" TextAlignment="Center" TextWrapping="Wrap" Foreground="#BF000000" HorizontalAlignment="Left"/>
+		<Rectangle x:Name="table_row_4_5" Fill="#FFF0F0F3" Margin="0,355.998,90,334.002" HorizontalAlignment="Right" Width="180"/>
+		<TextBlock Margin="870,0,0,342.406" VerticalAlignment="Bottom" FontFamily="Courier New" Text="m-name_4" TextAlignment="Center" TextWrapping="Wrap" Foreground="#BF000000" HorizontalAlignment="Left"/>
+		<Rectangle x:Name="table_row_5_1" Fill="#FFF0F0F3" HorizontalAlignment="Left" Margin="90,0,0,308.002" VerticalAlignment="Bottom" Width="180" Height="30"/>
+		<TextBlock HorizontalAlignment="Left" Margin="150,0,0,316.408" VerticalAlignment="Bottom" FontFamily="Courier New" Text="#0000005" TextAlignment="Center" TextWrapping="Wrap" Foreground="#BF000000"/>
+		<Rectangle x:Name="table_row_5_2" Fill="#FFF0F0F3" HorizontalAlignment="Left" Margin="269.987,0,0,308.002" VerticalAlignment="Bottom" Width="180" Height="30"/>
+		<TextBlock HorizontalAlignment="Left" Margin="328,0,0,316.408" VerticalAlignment="Bottom" FontFamily="Courier New" Text="p-name_5" TextAlignment="Center" TextWrapping="Wrap" Foreground="#BF000000"/>
+		<Rectangle x:Name="table_row_5_3" Fill="#FFF0F0F3" Margin="449.984,0,450.016,308.002" VerticalAlignment="Bottom" Height="30"/>
+		<TextBlock Margin="533,0,0,316.408" VerticalAlignment="Bottom" FontFamily="Courier New" Text="18" TextAlignment="Center" TextWrapping="Wrap" Foreground="#BF000000" HorizontalAlignment="Left"/>
+		<Rectangle x:Name="table_row_5_4" Fill="#FFF0F0F3" Margin="0,0,270.03,308.002" VerticalAlignment="Bottom" Height="30" HorizontalAlignment="Right" Width="180"/>
+		<TextBlock Margin="705,0,0,316.408" VerticalAlignment="Bottom" FontFamily="Courier New" Text="$100" TextAlignment="Center" TextWrapping="Wrap" Foreground="#BF000000" HorizontalAlignment="Left"/>
+		<Rectangle x:Name="table_row_5_5" Fill="#FFF0F0F3" Margin="0,0,90,308.002" VerticalAlignment="Bottom" Height="30" HorizontalAlignment="Right" Width="180"/>
+		<TextBlock Margin="870,0,0,316.408" VerticalAlignment="Bottom" FontFamily="Courier New" Text="m-name_5" TextAlignment="Center" TextWrapping="Wrap" Foreground="#BF000000" HorizontalAlignment="Left"/>
+		<Rectangle x:Name="table_row_6_1" Fill="#FFF0F0F3" HorizontalAlignment="Left" Margin="90,0,0,282.002" VerticalAlignment="Bottom" Width="180" Height="30"/>
+		<TextBlock HorizontalAlignment="Left" Margin="150,0,0,290.408" VerticalAlignment="Bottom" FontFamily="Courier New" Text="#0000006" TextAlignment="Center" TextWrapping="Wrap" Foreground="#BF000000"/>
+		<Rectangle x:Name="table_row_6_2" Fill="#FFF0F0F3" HorizontalAlignment="Left" Margin="269.987,0,0,282.002" VerticalAlignment="Bottom" Width="180" Height="30"/>
+		<TextBlock HorizontalAlignment="Left" Margin="328,0,0,290.408" VerticalAlignment="Bottom" FontFamily="Courier New" Text="p-name_6" TextAlignment="Center" TextWrapping="Wrap" Foreground="#BF000000"/>
+		<Rectangle x:Name="table_row_6_3" Fill="#FFF0F0F3" Margin="449.984,0,450.016,282.002" VerticalAlignment="Bottom" Height="30"/>
+		<TextBlock Margin="533,0,0,290.408" VerticalAlignment="Bottom" FontFamily="Courier New" Text="18" TextAlignment="Center" TextWrapping="Wrap" Foreground="#BF000000" HorizontalAlignment="Left"/>
+		<Rectangle x:Name="table_row_6_4" Fill="#FFF0F0F3" Margin="0,0,270.03,282.002" VerticalAlignment="Bottom" Height="30" HorizontalAlignment="Right" Width="180"/>
+		<TextBlock Margin="705,0,0,290.408" VerticalAlignment="Bottom" FontFamily="Courier New" Text="$100" TextAlignment="Center" TextWrapping="Wrap" Foreground="#BF000000" HorizontalAlignment="Left"/>
+		<Rectangle x:Name="table_row_6_5" Fill="#FFF0F0F3" Margin="0,0,90,282.002" VerticalAlignment="Bottom" Height="30" HorizontalAlignment="Right" Width="180"/>
+		<TextBlock Margin="870,0,0,290.408" VerticalAlignment="Bottom" FontFamily="Courier New" Text="m-name_6" TextAlignment="Center" TextWrapping="Wrap" Foreground="#BF000000" HorizontalAlignment="Left"/>
+		<Rectangle x:Name="table_row_7_1" Fill="#FFF0F0F3" HorizontalAlignment="Left" Margin="90,0,0,256.002" VerticalAlignment="Bottom" Width="180" Height="30"/>
+		<TextBlock HorizontalAlignment="Left" Margin="150,0,0,264.408" VerticalAlignment="Bottom" FontFamily="Courier New" Text="#0000007" TextAlignment="Center" TextWrapping="Wrap" Foreground="#BF000000"/>
+		<Rectangle x:Name="table_row_7_2" Fill="#FFF0F0F3" HorizontalAlignment="Left" Margin="269.987,0,0,256.002" VerticalAlignment="Bottom" Width="180" Height="30"/>
+		<TextBlock HorizontalAlignment="Left" Margin="328,0,0,264.408" VerticalAlignment="Bottom" FontFamily="Courier New" Text="p-name_7" TextAlignment="Center" TextWrapping="Wrap" Foreground="#BF000000"/>
+		<Rectangle x:Name="table_row_7_3" Fill="#FFF0F0F3" Margin="449.984,0,450.016,256.002" VerticalAlignment="Bottom" Height="30"/>
+		<TextBlock Margin="533,0,0,264.408" VerticalAlignment="Bottom" FontFamily="Courier New" Text="18" TextAlignment="Center" TextWrapping="Wrap" Foreground="#BF000000" HorizontalAlignment="Left"/>
+		<Rectangle x:Name="table_row_7_4" Fill="#FFF0F0F3" Margin="0,0,270.03,256.002" VerticalAlignment="Bottom" Height="30" HorizontalAlignment="Right" Width="180"/>
+		<TextBlock Margin="705,0,0,264.408" VerticalAlignment="Bottom" FontFamily="Courier New" Text="$100" TextAlignment="Center" TextWrapping="Wrap" Foreground="#BF000000" HorizontalAlignment="Left"/>
+		<Rectangle x:Name="table_row_7_5" Fill="#FFF0F0F3" Margin="0,0,90,256.002" VerticalAlignment="Bottom" Height="30" HorizontalAlignment="Right" Width="180"/>
+		<TextBlock Margin="870,0,0,264.408" VerticalAlignment="Bottom" FontFamily="Courier New" Text="m-name_7" TextAlignment="Center" TextWrapping="Wrap" Foreground="#BF000000" HorizontalAlignment="Left"/>
+		<Rectangle x:Name="table_row_8_1" Fill="#FFF0F0F3" HorizontalAlignment="Left" Margin="90,0,0,230.002" VerticalAlignment="Bottom" Width="180" Height="30"/>
+		<TextBlock HorizontalAlignment="Left" Margin="150,0,0,238.408" VerticalAlignment="Bottom" FontFamily="Courier New" Text="#0000008" TextAlignment="Center" TextWrapping="Wrap" Foreground="#BF000000"/>
+		<Rectangle x:Name="table_row_8_2" Fill="#FFF0F0F3" HorizontalAlignment="Left" Margin="269.987,0,0,230.002" VerticalAlignment="Bottom" Width="180" Height="30"/>
+		<TextBlock HorizontalAlignment="Left" Margin="328,0,0,238.408" VerticalAlignment="Bottom" FontFamily="Courier New" Text="p-name_8" TextAlignment="Center" TextWrapping="Wrap" Foreground="#BF000000"/>
+		<Rectangle x:Name="table_row_8_3" Fill="#FFF0F0F3" Margin="449.984,0,450.016,230.002" VerticalAlignment="Bottom" Height="30"/>
+		<TextBlock Margin="533,0,0,238.408" VerticalAlignment="Bottom" FontFamily="Courier New" Text="18" TextAlignment="Center" TextWrapping="Wrap" Foreground="#BF000000" HorizontalAlignment="Left"/>
+		<Rectangle x:Name="table_row_8_4" Fill="#FFF0F0F3" Margin="0,0,270.03,230.002" VerticalAlignment="Bottom" Height="30" HorizontalAlignment="Right" Width="180"/>
+		<TextBlock Margin="705,0,0,238.408" VerticalAlignment="Bottom" FontFamily="Courier New" Text="$100" TextAlignment="Center" TextWrapping="Wrap" Foreground="#BF000000" HorizontalAlignment="Left"/>
+		<Rectangle x:Name="table_row_8_5" Fill="#FFF0F0F3" Margin="0,0,90,230.002" VerticalAlignment="Bottom" Height="30" HorizontalAlignment="Right" Width="180"/>
+		<TextBlock Margin="870,0,0,238.408" VerticalAlignment="Bottom" FontFamily="Courier New" Text="m-name_8" TextAlignment="Center" TextWrapping="Wrap" Foreground="#BF000000" HorizontalAlignment="Left"/>
+		<Rectangle x:Name="table_row_9_1" Fill="#FFF0F0F3" HorizontalAlignment="Left" Margin="90,0,0,204.002" VerticalAlignment="Bottom" Width="180" Height="30"/>
+		<TextBlock HorizontalAlignment="Left" Margin="150,0,0,212.408" VerticalAlignment="Bottom" FontFamily="Courier New" Text="#0000009" TextAlignment="Center" TextWrapping="Wrap" Foreground="#BF000000"/>
+		<Rectangle x:Name="table_row_9_2" Fill="#FFF0F0F3" HorizontalAlignment="Left" Margin="269.987,0,0,204.002" VerticalAlignment="Bottom" Width="180" Height="30"/>
+		<TextBlock HorizontalAlignment="Left" Margin="328,0,0,212.408" VerticalAlignment="Bottom" FontFamily="Courier New" Text="p-name_9" TextAlignment="Center" TextWrapping="Wrap" Foreground="#BF000000"/>
+		<Rectangle x:Name="table_row_9_3" Fill="#FFF0F0F3" Margin="449.984,0,450.016,204.002" VerticalAlignment="Bottom" Height="30"/>
+		<TextBlock Margin="533,0,0,212.408" VerticalAlignment="Bottom" FontFamily="Courier New" Text="18" TextAlignment="Center" TextWrapping="Wrap" Foreground="#BF000000" HorizontalAlignment="Left"/>
+		<Rectangle x:Name="table_row_9_4" Fill="#FFF0F0F3" Margin="0,0,270.03,204.002" VerticalAlignment="Bottom" Height="30" HorizontalAlignment="Right" Width="180"/>
+		<TextBlock Margin="705,0,0,212.408" VerticalAlignment="Bottom" FontFamily="Courier New" Text="$100" TextAlignment="Center" TextWrapping="Wrap" Foreground="#BF000000" HorizontalAlignment="Left"/>
+		<Rectangle x:Name="table_row_9_5" Fill="#FFF0F0F3" Margin="0,0,90,204.002" VerticalAlignment="Bottom" Height="30" HorizontalAlignment="Right" Width="180"/>
+		<TextBlock Margin="870,0,0,212.408" VerticalAlignment="Bottom" FontFamily="Courier New" Text="m-name_9" TextAlignment="Center" TextWrapping="Wrap" Foreground="#BF000000" HorizontalAlignment="Left"/>
+		<Rectangle x:Name="table_row_10_1" Fill="#FFF0F0F3" HorizontalAlignment="Left" Margin="90,0,0,178.002" VerticalAlignment="Bottom" Width="180" Height="30"/>
+		<TextBlock HorizontalAlignment="Left" Margin="150,0,0,186.408" VerticalAlignment="Bottom" FontFamily="Courier New" Text="#0000010" TextAlignment="Center" TextWrapping="Wrap" Foreground="#BF000000"/>
+		<Rectangle x:Name="table_row_10_2" Fill="#FFF0F0F3" HorizontalAlignment="Left" Margin="269.987,0,0,178.002" VerticalAlignment="Bottom" Width="180" Height="30"/>
+		<TextBlock HorizontalAlignment="Left" Margin="328,0,0,186.408" VerticalAlignment="Bottom" FontFamily="Courier New" Text="p-name_10" TextAlignment="Center" TextWrapping="Wrap" Foreground="#BF000000"/>
+		<Rectangle x:Name="table_row_10_3" Fill="#FFF0F0F3" Margin="449.984,0,450.016,178.002" VerticalAlignment="Bottom" Height="30"/>
+		<TextBlock Margin="533,0,0,186.408" VerticalAlignment="Bottom" FontFamily="Courier New" Text="18" TextAlignment="Center" TextWrapping="Wrap" Foreground="#BF000000" HorizontalAlignment="Left"/>
+		<Rectangle x:Name="table_row_10_4" Fill="#FFF0F0F3" Margin="0,0,270.03,178.002" VerticalAlignment="Bottom" Height="30" HorizontalAlignment="Right" Width="180"/>
+		<TextBlock Margin="705,0,0,186.408" VerticalAlignment="Bottom" FontFamily="Courier New" Text="$100" TextAlignment="Center" TextWrapping="Wrap" Foreground="#BF000000" HorizontalAlignment="Left"/>
+		<Rectangle x:Name="table_row_10_5" Fill="#FFF0F0F3" Margin="0,0,90,178.002" VerticalAlignment="Bottom" Height="30" HorizontalAlignment="Right" Width="180"/>
+		<TextBlock Margin="870,0,0,186.408" VerticalAlignment="Bottom" FontFamily="Courier New" Text="m-name_10" TextAlignment="Center" TextWrapping="Wrap" Foreground="#BF000000" HorizontalAlignment="Left"/>
+		<Rectangle x:Name="table_row_11_1" Fill="#FFF0F0F3" HorizontalAlignment="Left" Margin="90,0,0,152.002" VerticalAlignment="Bottom" Width="180" Height="30"/>
+		<TextBlock HorizontalAlignment="Left" Margin="150,0,0,160.408" VerticalAlignment="Bottom" FontFamily="Courier New" Text="#0000011" TextAlignment="Center" TextWrapping="Wrap" Foreground="#BF000000"/>
+		<Rectangle x:Name="table_row_11_2" Fill="#FFF0F0F3" HorizontalAlignment="Left" Margin="269.987,0,0,152.002" VerticalAlignment="Bottom" Width="180" Height="30"/>
+		<TextBlock HorizontalAlignment="Left" Margin="328,0,0,160.408" VerticalAlignment="Bottom" FontFamily="Courier New" Text="p-name_11" TextAlignment="Center" TextWrapping="Wrap" Foreground="#BF000000"/>
+		<Rectangle x:Name="table_row_11_3" Fill="#FFF0F0F3" Margin="449.984,0,450.016,152.002" VerticalAlignment="Bottom" Height="30"/>
+		<TextBlock Margin="533,0,0,160.408" VerticalAlignment="Bottom" FontFamily="Courier New" Text="18" TextAlignment="Center" TextWrapping="Wrap" Foreground="#BF000000" HorizontalAlignment="Left"/>
+		<Rectangle x:Name="table_row_11_4" Fill="#FFF0F0F3" Margin="0,0,270.03,152.002" VerticalAlignment="Bottom" Height="30" HorizontalAlignment="Right" Width="180"/>
+		<TextBlock Margin="705,0,0,160.408" VerticalAlignment="Bottom" FontFamily="Courier New" Text="$100" TextAlignment="Center" TextWrapping="Wrap" Foreground="#BF000000" HorizontalAlignment="Left"/>
+		<Rectangle x:Name="table_row_11_5" Fill="#FFF0F0F3" Margin="0,0,90,152.002" VerticalAlignment="Bottom" Height="30" HorizontalAlignment="Right" Width="180"/>
+		<TextBlock Margin="870,0,0,160.408" VerticalAlignment="Bottom" FontFamily="Courier New" Text="m-name_11" TextAlignment="Center" TextWrapping="Wrap" Foreground="#BF000000" HorizontalAlignment="Left"/>
+		<Rectangle x:Name="table_row_12_1" Fill="#FFF0F0F3" HorizontalAlignment="Left" Margin="90,0,0,126.003" VerticalAlignment="Bottom" Width="180" Height="30"/>
+		<TextBlock HorizontalAlignment="Left" Margin="150,0,0,134.408" VerticalAlignment="Bottom" FontFamily="Courier New" Text="#0000012" TextAlignment="Center" TextWrapping="Wrap" Foreground="#BF000000"/>
+		<Rectangle x:Name="table_row_12_2" Fill="#FFF0F0F3" HorizontalAlignment="Left" Margin="269.987,0,0,126.003" VerticalAlignment="Bottom" Width="180" Height="30"/>
+		<TextBlock HorizontalAlignment="Left" Margin="328,0,0,134.408" VerticalAlignment="Bottom" FontFamily="Courier New" Text="p-name_12" TextAlignment="Center" TextWrapping="Wrap" Foreground="#BF000000"/>
+		<Rectangle x:Name="table_row_12_3" Fill="#FFF0F0F3" Margin="449.984,0,450.016,126.003" VerticalAlignment="Bottom" Height="30"/>
+		<TextBlock Margin="533,0,0,134.408" VerticalAlignment="Bottom" FontFamily="Courier New" Text="18" TextAlignment="Center" TextWrapping="Wrap" Foreground="#BF000000" HorizontalAlignment="Left"/>
+		<Rectangle x:Name="table_row_12_4" Fill="#FFF0F0F3" Margin="0,0,270.03,126.003" VerticalAlignment="Bottom" Height="30" HorizontalAlignment="Right" Width="180"/>
+		<TextBlock Margin="705,0,0,134.408" VerticalAlignment="Bottom" FontFamily="Courier New" Text="$100" TextAlignment="Center" TextWrapping="Wrap" Foreground="#BF000000" HorizontalAlignment="Left"/>
+		<Rectangle x:Name="table_row_12_5" Fill="#FFF0F0F3" Margin="0,0,90,126.003" VerticalAlignment="Bottom" Height="30" HorizontalAlignment="Right" Width="180"/>
+		<TextBlock Margin="870,0,0,134.408" VerticalAlignment="Bottom" FontFamily="Courier New" Text="m-name_12" TextAlignment="Center" TextWrapping="Wrap" Foreground="#BF000000" HorizontalAlignment="Left"/>
+		<Rectangle x:Name="table_row_13_1" Fill="#FFF0F0F3" HorizontalAlignment="Left" Margin="90,0,0,100.004" VerticalAlignment="Bottom" Width="180" Height="30"/>
+		<TextBlock HorizontalAlignment="Left" Margin="150,0,0,108.409" VerticalAlignment="Bottom" FontFamily="Courier New" Text="#0000013" TextAlignment="Center" TextWrapping="Wrap" Foreground="#BF000000"/>
+		<Rectangle x:Name="table_row_13_2" Fill="#FFF0F0F3" HorizontalAlignment="Left" Margin="269.987,0,0,100.004" VerticalAlignment="Bottom" Width="180" Height="30"/>
+		<TextBlock HorizontalAlignment="Left" Margin="328,0,0,108.409" VerticalAlignment="Bottom" FontFamily="Courier New" Text="p-name_13" TextAlignment="Center" TextWrapping="Wrap" Foreground="#BF000000"/>
+		<Rectangle x:Name="table_row_13_3" Fill="#FFF0F0F3" Margin="449.984,0,450.016,100.004" VerticalAlignment="Bottom" Height="30"/>
+		<TextBlock Margin="533,0,0,108.409" VerticalAlignment="Bottom" FontFamily="Courier New" Text="18" TextAlignment="Center" TextWrapping="Wrap" Foreground="#BF000000" HorizontalAlignment="Left"/>
+		<Rectangle x:Name="table_row_13_4" Fill="#FFF0F0F3" Margin="0,0,270.03,100.004" VerticalAlignment="Bottom" Height="30" HorizontalAlignment="Right" Width="180"/>
+		<TextBlock Margin="705,0,0,108.409" VerticalAlignment="Bottom" FontFamily="Courier New" Text="$100" TextAlignment="Center" TextWrapping="Wrap" Foreground="#BF000000" HorizontalAlignment="Left"/>
+		<Rectangle x:Name="table_row_13_5" Fill="#FFF0F0F3" Margin="0,0,90,100.004" VerticalAlignment="Bottom" Height="30" HorizontalAlignment="Right" Width="180"/>
+		<TextBlock Margin="870,0,0,108.409" VerticalAlignment="Bottom" FontFamily="Courier New" Text="m-name_13" TextAlignment="Center" TextWrapping="Wrap" Foreground="#BF000000" HorizontalAlignment="Left"/>
+		<ScrollBar HorizontalAlignment="Right" Margin="0,275,90,100.004" d:LayoutOverrides="Width"/>
+	</Grid>
+</UserControl>

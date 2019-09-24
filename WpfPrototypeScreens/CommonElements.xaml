@@ -1,0 +1,47 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d"
+	xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity" xmlns:pb="clr-namespace:Microsoft.Expression.Prototyping.Behavior;assembly=Microsoft.Expression.Prototyping.Interactivity"
+	x:Class="WpfPrototypeScreens.CommonElements"
+	x:Name="UserControl"
+	d:DesignWidth="1080" d:DesignHeight="1055" Width="1080" Height="720">
+
+	<Grid x:Name="LayoutRoot">
+		<TextBlock x:Name="logo_text" HorizontalAlignment="Left" Margin="65,10,0,0" VerticalAlignment="Top" FontFamily="Monotype Corsiva" FontSize="48" FontWeight="Bold" Text="solnechniy store" TextWrapping="Wrap" Width="280.2" Height="53.86"/>
+		<Rectangle x:Name="Navigation" Stroke="#FFB4B4B4" Fill="White" HorizontalAlignment="Center" Margin="0,75,0,0" VerticalAlignment="Top" Width="950" Height="50" Opacity="0.36"/>
+		<Image x:Name="logo_img" Margin="515,75,0,0" Height="50" Source="logo.png" Stretch="Fill" VerticalAlignment="Top" HorizontalAlignment="Left" Width="50"/>
+		<Button x:Name="___Button___Home_" Background="White" Cursor="Hand" HorizontalAlignment="Left" Margin="65,75,0,0" Style="{DynamicResource SimpleButton}" VerticalAlignment="Top" Width="200" Height="50" Content="HOME" BorderBrush="{x:Null}" FontFamily="Courier New" FontSize="16">
+			<i:Interaction.Triggers>
+				<i:EventTrigger EventName="Click">
+					<pb:NavigateToScreenAction TargetScreen="WpfPrototypeScreens.Screen_1_5"/>
+				</i:EventTrigger>
+			</i:Interaction.Triggers>
+		</Button>
+		<Button x:Name="___Button___Store_" Background="White" Cursor="Hand" HorizontalAlignment="Left" Margin="265,75,0,0" Style="{DynamicResource SimpleButton}" VerticalAlignment="Top" Width="200" Height="50" Content="STORE" BorderBrush="{x:Null}" FontFamily="Courier New" FontSize="16">
+			<i:Interaction.Triggers>
+				<i:EventTrigger EventName="Click">
+					<pb:NavigateToScreenAction TargetScreen="WpfPrototypeScreens.Screen_1"/>
+				</i:EventTrigger>
+			</i:Interaction.Triggers>
+		</Button>
+		<Button x:Name="___Button___Warehouse_" Background="White" Cursor="Hand" Margin="0,75,265,0" Style="{DynamicResource SimpleButton}" VerticalAlignment="Top" Height="50" Content="WARE" BorderBrush="{x:Null}" FontFamily="Courier New" FontSize="16" HorizontalAlignment="Right" Width="200">
+			<i:Interaction.Triggers>
+				<i:EventTrigger EventName="Click">
+					<pb:NavigateToScreenAction TargetScreen="WpfPrototypeScreens.Screen_1_1"/>
+				</i:EventTrigger>
+			</i:Interaction.Triggers>
+		</Button>
+		<Button x:Name="___Button___MyCart_" Background="White" Cursor="Hand" Margin="0,75,65,0" Style="{DynamicResource SimpleButton}" VerticalAlignment="Top" Height="50" Content="CART" BorderBrush="{x:Null}" FontFamily="Courier New" FontSize="16" HorizontalAlignment="Right" Width="200">
+			<i:Interaction.Triggers>
+				<i:EventTrigger EventName="Click">
+					<pb:NavigateToScreenAction TargetScreen="WpfPrototypeScreens.Screen_1_7"/>
+				</i:EventTrigger>
+			</i:Interaction.Triggers>
+		</Button>
+		<Rectangle x:Name="footer" Fill="Black" Stroke="Black" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="1080" Height="25"/>
+		<TextBlock HorizontalAlignment="Center" Margin="75,0,0,5" VerticalAlignment="Bottom" Opacity="0.5" FontFamily="Times New Roman" Foreground="White" Text="copyright 2019 " TextWrapping="Wrap" Width="75.99" Height="13.8" FontSize="9.333" TextAlignment="Center"/>
+	</Grid>
+</UserControl>

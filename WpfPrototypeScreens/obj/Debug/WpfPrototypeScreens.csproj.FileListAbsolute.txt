@@ -1,0 +1,62 @@
+C:\Users\cxd3r\Desktop\documents\university\3rd course\software development\laboratory work #1\Application Sketch\WpfPrototype\WpfPrototype\bin\Debug\WpfPrototype.Screens.dll
+C:\Users\cxd3r\Desktop\documents\university\3rd course\software development\laboratory work #1\Application Sketch\WpfPrototype\WpfPrototype\bin\Debug\WpfPrototype.Screens.pdb
+C:\Users\cxd3r\Desktop\documents\university\3rd course\software development\laboratory work #1\Application Sketch\WpfPrototype\WpfPrototype\WpfPrototypeScreens\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\cxd3r\Desktop\documents\university\3rd course\software development\laboratory work #1\Application Sketch\WpfPrototype\WpfPrototype\WpfPrototypeScreens\obj\Debug\Screen 1.baml
+C:\Users\cxd3r\Desktop\documents\university\3rd course\software development\laboratory work #1\Application Sketch\WpfPrototype\WpfPrototype\WpfPrototypeScreens\obj\Debug\Screen 1_1.baml
+C:\Users\cxd3r\Desktop\documents\university\3rd course\software development\laboratory work #1\Application Sketch\WpfPrototype\WpfPrototype\WpfPrototypeScreens\obj\Debug\Screen 1_2.baml
+C:\Users\cxd3r\Desktop\documents\university\3rd course\software development\laboratory work #1\Application Sketch\WpfPrototype\WpfPrototype\WpfPrototypeScreens\obj\Debug\Screen 1_3.baml
+C:\Users\cxd3r\Desktop\documents\university\3rd course\software development\laboratory work #1\Application Sketch\WpfPrototype\WpfPrototype\WpfPrototypeScreens\obj\Debug\Screen 1_4.baml
+C:\Users\cxd3r\Desktop\documents\university\3rd course\software development\laboratory work #1\Application Sketch\WpfPrototype\WpfPrototype\WpfPrototypeScreens\obj\Debug\SketchStyles.baml
+C:\Users\cxd3r\Desktop\documents\university\3rd course\software development\laboratory work #1\Application Sketch\WpfPrototype\WpfPrototype\WpfPrototypeScreens\obj\Debug\Screen 1.g.cs
+C:\Users\cxd3r\Desktop\documents\university\3rd course\software development\laboratory work #1\Application Sketch\WpfPrototype\WpfPrototype\WpfPrototypeScreens\obj\Debug\Screen 1_1.g.cs
+C:\Users\cxd3r\Desktop\documents\university\3rd course\software development\laboratory work #1\Application Sketch\WpfPrototype\WpfPrototype\WpfPrototypeScreens\obj\Debug\Screen 1_2.g.cs
+C:\Users\cxd3r\Desktop\documents\university\3rd course\software development\laboratory work #1\Application Sketch\WpfPrototype\WpfPrototype\WpfPrototypeScreens\obj\Debug\Screen 1_3.g.cs
+C:\Users\cxd3r\Desktop\documents\university\3rd course\software development\laboratory work #1\Application Sketch\WpfPrototype\WpfPrototype\WpfPrototypeScreens\obj\Debug\Screen 1_4.g.cs
+C:\Users\cxd3r\Desktop\documents\university\3rd course\software development\laboratory work #1\Application Sketch\WpfPrototype\WpfPrototype\WpfPrototypeScreens\obj\Debug\WpfPrototype.Screens_MarkupCompile.cache
+C:\Users\cxd3r\Desktop\documents\university\3rd course\software development\laboratory work #1\Application Sketch\WpfPrototype\WpfPrototype\WpfPrototypeScreens\obj\Debug\WpfPrototype.Screens.g.resources
+C:\Users\cxd3r\Desktop\documents\university\3rd course\software development\laboratory work #1\Application Sketch\WpfPrototype\WpfPrototype\WpfPrototypeScreens\obj\Debug\WpfPrototype.Screens.dll
+C:\Users\cxd3r\Desktop\documents\university\3rd course\software development\laboratory work #1\Application Sketch\WpfPrototype\WpfPrototype\WpfPrototypeScreens\obj\Debug\WpfPrototype.Screens.pdb
+C:\Users\cxd3r\Desktop\documents\university\3rd course\software development\laboratory work #1\Application Sketch\WpfPrototype\WpfPrototype\WpfPrototypeScreens\obj\Debug\Screen 1_5.baml
+C:\Users\cxd3r\Desktop\documents\university\3rd course\software development\laboratory work #1\Application Sketch\WpfPrototype\WpfPrototype\WpfPrototypeScreens\obj\Debug\Screen 1_5.g.cs
+C:\Users\cxd3r\Desktop\documents\university\3rd course\software development\laboratory work #1\Application Sketch\WpfPrototype\WpfPrototype\WpfPrototypeScreens\obj\Debug\Simple Styles.baml
+C:\Users\cxd3r\Desktop\documents\university\3rd course\software development\laboratory work #1\Application Sketch\WpfPrototype\WpfPrototype\WpfPrototypeScreens\obj\Debug\NavigationComponent.baml
+C:\Users\cxd3r\Desktop\documents\university\3rd course\software development\laboratory work #1\Application Sketch\WpfPrototype\WpfPrototype\WpfPrototypeScreens\obj\Debug\Screen 1_6.baml
+C:\Users\cxd3r\Desktop\documents\university\3rd course\software development\laboratory work #1\Application Sketch\WpfPrototype\WpfPrototype\WpfPrototypeScreens\obj\Debug\NavigationComponent.g.cs
+C:\Users\cxd3r\Desktop\documents\university\3rd course\software development\laboratory work #1\Application Sketch\WpfPrototype\WpfPrototype\WpfPrototypeScreens\obj\Debug\Screen 1_6.g.cs
+C:\Users\cxd3r\Desktop\documents\university\3rd course\software development\laboratory work #1\Application Sketch\WpfPrototype\WpfPrototype\WpfPrototypeScreens\obj\Debug\CommonElements.baml
+C:\Users\cxd3r\Desktop\documents\university\3rd course\software development\laboratory work #1\Application Sketch\WpfPrototype\WpfPrototype\WpfPrototypeScreens\obj\Debug\CommonElements.g.cs
+C:\Users\cxd3r\Desktop\documents\university\3rd course\software development\laboratory work #1\Application Sketch\WpfPrototype\WpfPrototype\WpfPrototypeScreens\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\cxd3r\Desktop\documents\university\3rd course\software development\laboratory work #1\Application Sketch\WpfPrototype\WpfPrototype\WpfPrototypeScreens\obj\Debug\WpfPrototype.Screens_MarkupCompile.lref
+C:\Users\cxd3r\Desktop\documents\university\3rd course\software development\laboratory work #1\Application Sketch\WpfPrototype\WpfPrototype\WpfPrototypeScreens\obj\Debug\Screen 1_7.g.cs
+C:\Users\cxd3r\Desktop\documents\university\3rd course\software development\laboratory work #1\Application Sketch\WpfPrototype\WpfPrototype\WpfPrototypeScreens\obj\Debug\Screen 1_7.baml
+C:\Users\cxd3r\Desktop\laboratory work #1\Application Sketch\bin\Debug\WpfPrototype.Screens.dll
+C:\Users\cxd3r\Desktop\laboratory work #1\Application Sketch\bin\Debug\WpfPrototype.Screens.pdb
+C:\Users\cxd3r\Desktop\laboratory work #1\Application Sketch\WpfPrototypeScreens\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\cxd3r\Desktop\laboratory work #1\Application Sketch\WpfPrototypeScreens\obj\Debug\CommonElements.baml
+C:\Users\cxd3r\Desktop\laboratory work #1\Application Sketch\WpfPrototypeScreens\obj\Debug\NavigationComponent.baml
+C:\Users\cxd3r\Desktop\laboratory work #1\Application Sketch\WpfPrototypeScreens\obj\Debug\Screen 1_3.baml
+C:\Users\cxd3r\Desktop\laboratory work #1\Application Sketch\WpfPrototypeScreens\obj\Debug\Screen 1_4.baml
+C:\Users\cxd3r\Desktop\laboratory work #1\Application Sketch\WpfPrototypeScreens\obj\Debug\Screen 1_6.baml
+C:\Users\cxd3r\Desktop\laboratory work #1\Application Sketch\WpfPrototypeScreens\obj\Debug\Simple Styles.baml
+C:\Users\cxd3r\Desktop\laboratory work #1\Application Sketch\WpfPrototypeScreens\obj\Debug\SketchStyles.baml
+C:\Users\cxd3r\Desktop\laboratory work #1\Application Sketch\WpfPrototypeScreens\obj\Debug\CommonElements.g.cs
+C:\Users\cxd3r\Desktop\laboratory work #1\Application Sketch\WpfPrototypeScreens\obj\Debug\NavigationComponent.g.cs
+C:\Users\cxd3r\Desktop\laboratory work #1\Application Sketch\WpfPrototypeScreens\obj\Debug\Screen 1.g.cs
+C:\Users\cxd3r\Desktop\laboratory work #1\Application Sketch\WpfPrototypeScreens\obj\Debug\Screen 1_1.g.cs
+C:\Users\cxd3r\Desktop\laboratory work #1\Application Sketch\WpfPrototypeScreens\obj\Debug\Screen 1_2.g.cs
+C:\Users\cxd3r\Desktop\laboratory work #1\Application Sketch\WpfPrototypeScreens\obj\Debug\Screen 1_3.g.cs
+C:\Users\cxd3r\Desktop\laboratory work #1\Application Sketch\WpfPrototypeScreens\obj\Debug\Screen 1_4.g.cs
+C:\Users\cxd3r\Desktop\laboratory work #1\Application Sketch\WpfPrototypeScreens\obj\Debug\Screen 1_5.g.cs
+C:\Users\cxd3r\Desktop\laboratory work #1\Application Sketch\WpfPrototypeScreens\obj\Debug\Screen 1_6.g.cs
+C:\Users\cxd3r\Desktop\laboratory work #1\Application Sketch\WpfPrototypeScreens\obj\Debug\Screen 1_7.g.cs
+C:\Users\cxd3r\Desktop\laboratory work #1\Application Sketch\WpfPrototypeScreens\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\cxd3r\Desktop\laboratory work #1\Application Sketch\WpfPrototypeScreens\obj\Debug\WpfPrototype.Screens_MarkupCompile.cache
+C:\Users\cxd3r\Desktop\laboratory work #1\Application Sketch\WpfPrototypeScreens\obj\Debug\WpfPrototype.Screens_MarkupCompile.lref
+C:\Users\cxd3r\Desktop\laboratory work #1\Application Sketch\WpfPrototypeScreens\obj\Debug\Screen 1.baml
+C:\Users\cxd3r\Desktop\laboratory work #1\Application Sketch\WpfPrototypeScreens\obj\Debug\Screen 1_1.baml
+C:\Users\cxd3r\Desktop\laboratory work #1\Application Sketch\WpfPrototypeScreens\obj\Debug\Screen 1_2.baml
+C:\Users\cxd3r\Desktop\laboratory work #1\Application Sketch\WpfPrototypeScreens\obj\Debug\Screen 1_5.baml
+C:\Users\cxd3r\Desktop\laboratory work #1\Application Sketch\WpfPrototypeScreens\obj\Debug\Screen 1_7.baml
+C:\Users\cxd3r\Desktop\laboratory work #1\Application Sketch\WpfPrototypeScreens\obj\Debug\WpfPrototype.Screens.g.resources
+C:\Users\cxd3r\Desktop\laboratory work #1\Application Sketch\WpfPrototypeScreens\obj\Debug\WpfPrototype.Screens.dll
+C:\Users\cxd3r\Desktop\laboratory work #1\Application Sketch\WpfPrototypeScreens\obj\Debug\WpfPrototype.Screens.pdb
